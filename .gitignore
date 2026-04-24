@@ -1,0 +1,35 @@
+# Rust
+/target/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Build/Dist
+/dist/
+/bin/
+
+# Temporary
+tmp/
+temp/
